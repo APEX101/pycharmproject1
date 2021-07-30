@@ -45,5 +45,9 @@ drawing = PlotGraph(dataframe=df,month=5,charttype="normal")
 drawing = drawing.perform_plotting()
 print(drawing)
 
+drawing2 = PlotGraph(dataframe=df,month=5,charttype="stacked")
+drawing2 = drawing2.perform_plotting()
+print(drawing2)
+
 
 
